@@ -26,35 +26,41 @@ public class UserController {
 	@Autowired
 	private UserService userService;
 	
-	//회원가입
-	//#3 서버 응답(jsp 반환)
+	//巐護寳�ｰ��桿
+	//#3 ��罹ｲ� �搗�況(jsp �ｰ倆劍)
 	@GetMapping("/join")
 	private String join(@ModelAttribute("joinUserBean") UserBean joinUserBean) {
-	//#4 modelAttribute로 UserBean 객체를 jsp로 이동
+	//#4 modelAttribute�｡� UserBean �ｰ晧ｲｴ�･ｼ jsp�｡� �擽�徐
 
 		return "user/join";
 	}
 
 
-	//회원가입 유효성 검사
+	//巐護寳�ｰ��桿 �悛巐ｨ�┳ �ｲ��ぎ
 	@PostMapping("/join_pro")
 	private String join_pro(@Valid @ModelAttribute("joinUserBean") UserBean joinUserBean, BindingResult result) {
 		
 		if(result.hasErrors()) {
 			return "user/join";
-		}// 유효성 검사에 실패한 경우 "user/join" 뷰를 반환
+		}// �悛巐ｨ�┳ �ｲ��ぎ�乱 �共甯ｨ﨑� �ｲｽ�垈 "user/join" �ｷｰ�･ｼ �ｰ倆劍
 		
 		userService.addUser(joinUserBean);
 		
 		return "user/join_success";
-		}// 유효성 검사에 성공한 경우 "user/join_success" 뷰를 반환
+		}// �悛巐ｨ�┳ �ｲ��ぎ�乱 �┳�ｳｵ﨑� �ｲｽ�垈 "user/join_success" �ｷｰ�･ｼ �ｰ倆劍
 	
-	//@InitBinder: Spring MVC에서 특정 컨트롤러에 대한 데이터 바인딩 및 검증 설정을 초기화하는 메서드에 적용 
+	//@InitBinder: Spring MVC�乱��� 孖ｹ��� �ｻｨ孖ｸ�｡､�洳�乱 �劇﨑� �魂�擽奓ｰ �ｰ肥攤�畠 �ｰ� �ｲ��ｦ� �└��菩揆 �ｴ一ｸｰ嶹被葺�株 �ｩ肥�罹糖�乱 ���圸 
 	@InitBinder 
 	public void initBinder(WebDataBinder binder) {
-		//UserValidator 객체 생성
+		//UserValidator �ｰ晧ｲｴ ��晧┳
 		UserValidator validator1 = new UserValidator();
-		//WebDataBinder 객체에 UserValidator를 추가하여 유효성 검사 설정
+		//WebDataBinder �ｰ晧ｲｴ�乱 UserValidator�･ｼ �ｶ緋ｰ�﨑們流 �悛巐ｨ�┳ �ｲ��ぎ �└���
 		binder.addValidators(validator1);
+	}
+	
+	@GetMapping("/login")
+	private String login() {
+		
+		return "user/login";
 	}
 }

@@ -7,11 +7,11 @@
 <c:set var="root" value="${pageContext.request.contextPath }/" />
 
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en">
+<html style="font-size: 16px;" lang="ja-JP">
 <head>
 <!-- 네이버 로그인 API 라이브러리 주소 -->
 <!-- <script type="text/javascript" src="https://static.nid.naver.com/js/naverLogin_implicit-1.0.3.js" charset="utf-8"></script>
- -->
+  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="keywords" content="​Join us">

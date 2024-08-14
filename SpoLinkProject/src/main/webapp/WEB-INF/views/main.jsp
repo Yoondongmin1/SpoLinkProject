@@ -32,6 +32,9 @@
 }
 </script>
 
+
+
+
 <meta name="theme-color" content="#478ac9">
 <meta property="og:title" content="main">
 <meta property="og:type" content="website">
@@ -527,40 +530,28 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 		<div class="u-clearfix u-sheet u-sheet-1">
 			<div class="u-expanded-width u-list u-list-1">
 				<div class="u-repeater u-repeater-1">
-					<div
-						class="u-container-style u-list-item u-repeater-item u-video-cover u-white">
-						<div
-							class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
-							<div
-								class="u-border-4 u-border-palette-3-base u-expanded-width u-line u-line-horizontal u-line-1"></div>
-							<img alt=""
-								class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-image-1"
-								data-image-width="1080" data-image-height="720"
-								src="${root }images/aff68d80-1ae6-07df-42dc-af30d1d82b85.jpg">
-							<p class="u-text u-text-default u-text-1">Sample text. Click
-								to select the text box. Click again or double click to start
-								editing the text.</p>
-							<a href="" class="u-btn u-button-style u-palette-3-base u-btn-1">learn
-								more</a>
-						</div>
+					<div class="u-container-style u-list-item u-repeater-item u-video-cover u-white">
+					    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
+					        <div class="u-border-4 u-border-palette-3-base u-expanded-width u-line u-line-horizontal u-line-1"></div>
+        					<img id="article-image" src= "https://imgnews.pstatic.net/image/108/2024/08/14/0003258195_001_20240814135907686.jpg?type=w647" alt="Loading image..." class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-image-1" data-image-width="1080" data-image-height="720">
+					        <p id="article-title" class="u-text u-text-default u-text-1">Loading article title...</p>
+					        <!-- 링크 태그에 id 추가 -->
+					        <a id="article-link" href="#" class="u-btn u-button-style u-palette-3-base u-btn-1">Learn More</a>
+					    </div>
 					</div>
-					<div
-						class="u-container-style u-list-item u-repeater-item u-video-cover u-white u-list-item-2">
-						<div
-							class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
-							<div
-								class="u-border-4 u-border-palette-3-base u-expanded-width u-line u-line-horizontal u-line-2"></div>
-							<img alt=""
-								class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-image-2"
-								data-image-width="2000" data-image-height="1333"
-								src="${root }images/90fc53c9.svg">
-							<p class="u-text u-text-default u-text-2">Sample text. Click
-								to select the text box. Click again or double click to start
-								editing the text.</p>
-							<a href="" class="u-btn u-button-style u-palette-3-base u-btn-2">learn
-								more</a>
-						</div>
+					<div class="u-container-style u-list-item u-repeater-item u-video-cover u-white u-list-item-2">
+					    <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
+					        <div class="u-border-4 u-border-palette-3-base u-expanded-width u-line u-line-horizontal u-line-2"></div>
+					        <img alt="Sample Image"
+					            class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-image-2"
+					            data-image-width="2000" data-image-height="1333"
+					            src="https://imgnews.pstatic.net/image/028/2024/08/14/0002702752_001_20240814170009727.jpg?type=w647">
+					        <p id="article-title2" class="u-text u-text-default u-text-2">Loading article title...</p>
+					        <a id="article-link2" href="#" class="u-btn u-button-style u-palette-3-base u-btn-2">Learn More</a>
+					    </div>
 					</div>
+
+					
 					<div
 						class="u-container-style u-list-item u-repeater-item u-video-cover u-white u-list-item-3">
 						<div
@@ -570,11 +561,9 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 							<img alt=""
 								class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-image-3"
 								data-image-width="2000" data-image-height="1333"
-								src="${root }images/90fc53c9.svg">
-							<p class="u-text u-text-default u-text-3">Sample text. Click
-								to select the text box. Click again or double click to start
-								editing the text.</p>
-							<a href="" class="u-btn u-button-style u-palette-3-base u-btn-3">learn
+								src="https://imgnews.pstatic.net/image/411/2024/08/14/0000050618_001_20240814165511007.jpg?type=w647">
+							<p id ="article-title3" class="u-text u-text-default u-text-3">Loading article title...</p>
+							<a id= "article-link3" href="" class="u-btn u-button-style u-palette-3-base u-btn-3">learn
 								more</a>
 						</div>
 					</div>
@@ -587,11 +576,11 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 							<img alt=""
 								class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-image-4"
 								data-image-width="2000" data-image-height="1333"
-								src="${root }images/90fc53c9.svg">
-							<p class="u-text u-text-default u-text-4">Sample text. Click
+								src="https://imgnews.pstatic.net/image/410/2024/08/14/0001017915_001_20240814165309877.jpg?type=w647">
+							<p id ="article-title4" class="u-text u-text-default u-text-4">Sample text. Click
 								to select the text box. Click again or double click to start
 								editing the text.</p>
-							<a href="" class="u-btn u-button-style u-palette-3-base u-btn-4">learn
+							<a id= "article-link4" href="" class="u-btn u-button-style u-palette-3-base u-btn-4">learn
 								more</a>
 						</div>
 					</div>
@@ -604,11 +593,11 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 							<img alt=""
 								class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-image-5"
 								data-image-width="2000" data-image-height="1333"
-								src="${root }images/90fc53c9.svg">
-							<p class="u-text u-text-default u-text-5">Sample text. Click
+								src="https://imgnews.pstatic.net/image/411/2024/08/14/0000050617_001_20240814164015782.jpg?type=w647">
+							<p id ="article-title5" class="u-text u-text-default u-text-5">Sample text. Click
 								to select the text box. Click again or double click to start
 								editing the text.</p>
-							<a href="" class="u-btn u-button-style u-palette-3-base u-btn-5">learn
+							<a id= "article-link5" href="" class="u-btn u-button-style u-palette-3-base u-btn-5">learn
 								more</a>
 						</div>
 					</div>
@@ -621,11 +610,11 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 							<img alt=""
 								class="u-expanded-width-lg u-expanded-width-md u-expanded-width-sm u-expanded-width-xs u-image u-image-default u-image-6"
 								data-image-width="2000" data-image-height="1333"
-								src="${root }images/90fc53c9.svg">
-							<p class="u-text u-text-default u-text-6">Sample text. Click
+								src="https://imgnews.pstatic.net/image/144/2024/08/14/0000982094_001_20240814170713292.jpg?type=w647">
+							<p id ="article-title6" class="u-text u-text-default u-text-6">Sample text. Click
 								to select the text box. Click again or double click to start
 								editing the text.</p>
-							<a href="" class="u-btn u-button-style u-palette-3-base u-btn-6">learn
+							<a id ="article-link6" href="" class="u-btn u-button-style u-palette-3-base u-btn-6">learn
 								more</a>
 						</div>
 					</div>
@@ -633,6 +622,274 @@ c6.177,6.18,9.262,14.271,9.262,22.366C354.708,234.018,351.617,242.115,345.441,24
 			</div>
 		</div>
 	</section>
+	
+	
+	
+
+<!-- 크롤링 -->
+<!-- ======================================================================================================================================================== -->
+<!-- 이미지 크롤링 실패 -->
+
+<script>
+    // 페이지 로드 시 Servlet을 호출하여 기사 데이터 가져오기
+    fetch('fetchDataServlet')
+    .then(response => {
+        console.log('Response status:', response.status); // 응답 상태 확인
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log('Fetched data:', data); // 가져온 데이터 확인
+        if (!data.error) {
+            const titleElement = document.getElementById('article-title');
+            const linkElement = document.getElementById('article-link');
+            const imgElement = document.getElementById('article-image'); // 이미지 요소 선택
+
+            if (titleElement) {
+                titleElement.innerText = data.title;
+            }
+
+            if (linkElement) {
+                linkElement.href = data.link;
+            }
+
+            if (imgElement && data.imageUrl) {
+                imgElement.src = data.imageUrl; // 이미지 URL 적용
+                imgElement.alt = data.title;    // 이미지의 대체 텍스트 설정
+            }
+        } else {
+            const titleElement = document.getElementById('article-title');
+            if (titleElement) {
+                titleElement.innerText = data.error;
+            }
+        }
+    })
+    .catch(error => {
+        console.error('Fetch error:', error); // 자세한 오류 정보 출력
+        const titleElement = document.getElementById('article-title');
+        if (titleElement) {
+            titleElement.innerText = '데이터 로드 중 오류 발생';
+        }
+    });
+
+</script>
+ <script>
+        // 두 번째 서블릿을 호출하여 기사 데이터 가져오기
+        fetch('fetchDataServlet2')
+            .then(response => {
+                console.log('Response status:', response.status); // 응답 상태 확인
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data2 => {
+                console.log('Fetched data:', data2); // 가져온 데이터 확인
+                if (!data2.error) {
+                    const titleElement = document.getElementById('article-title2');
+                    const linkElement = document.getElementById('article-link2');
+                    
+                    if (titleElement) {
+                        titleElement.innerText = data2.title;
+                    }
+
+                    if (linkElement) {
+                        linkElement.href = data2.link;
+                    }
+                } else {
+                    const titleElement = document.getElementById('article-title2');
+                    if (titleElement) {
+                        titleElement.innerText = data2.error;
+                    }
+                }
+            })
+            .catch(error => {
+                console.error('Fetch error:', error); // 자세한 오류 정보 출력
+                const titleElement = document.getElementById('article-title2');
+                if (titleElement) {
+                    titleElement.innerText = '데이터 로드 중 오류 발생';
+                }
+            });
+    </script>
+    
+   <script>
+    // 페이지 로드 시 Servlet을 호출하여 기사 데이터 가져오기
+    fetch('fetchDataServlet3')
+        .then(response => {
+            console.log('Response status:', response.status); // 응답 상태 확인
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Fetched data:', data); // 가져온 데이터 확인
+            if (!data.error) {
+                const titleElement = document.getElementById('article-title3');
+                const linkElement = document.getElementById('article-link3');
+                const imgElement = document.getElementById('article-image3');
+                
+                if (titleElement) {
+                    titleElement.innerText = data.title;
+                }
+
+                if (linkElement) {
+                    linkElement.href = data.link;
+                }
+
+                if (imgElement) {
+                    imgElement.src = data.imageUrl;
+                }
+            } else {
+                const titleElement = document.getElementById('article-title3');
+                if (titleElement) {
+                    titleElement.innerText = data.error;
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Fetch error:', error); // 자세한 오류 정보 출력
+            const titleElement = document.getElementById('article-title3');
+            if (titleElement) {
+                titleElement.innerText = '데이터 로드 중 오류 발생';
+            }
+        });
+</script>
+
+<script>
+    // 페이지 로드 시 Servlet을 호출하여 기사 데이터 가져오기
+    fetch('fetchDataServlet4')
+        .then(response => {
+            console.log('Response status:', response.status); // 응답 상태 확인
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Fetched data:', data); // 가져온 데이터 확인
+            if (!data.error) {
+                const titleElement = document.getElementById('article-title4');
+                const linkElement = document.getElementById('article-link4');
+                const imgElement = document.getElementById('article-image4');
+                
+                if (titleElement) {
+                    titleElement.innerText = data.title;
+                }
+
+                if (linkElement) {
+                    linkElement.href = data.link;
+                }
+
+                if (imgElement) {
+                    imgElement.src = data.imageUrl;
+                }
+            } else {
+                const titleElement = document.getElementById('article-title4');
+                if (titleElement) {
+                    titleElement.innerText = data.error;
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Fetch error:', error); // 자세한 오류 정보 출력
+            const titleElement = document.getElementById('article-title4');
+            if (titleElement) {
+                titleElement.innerText = '데이터 로드 중 오류 발생';
+            }
+        });
+</script>
+
+<script>
+    // 페이지 로드 시 Servlet을 호출하여 기사 데이터 가져오기
+    fetch('fetchDataServlet5')
+        .then(response => {
+            console.log('Response status:', response.status); // 응답 상태 확인
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Fetched data:', data); // 가져온 데이터 확인
+            if (!data.error) {
+                const titleElement = document.getElementById('article-title5');
+                const linkElement = document.getElementById('article-link5');
+                const imgElement = document.getElementById('article-image5');
+                
+                if (titleElement) {
+                    titleElement.innerText = data.title;
+                }
+
+                if (linkElement) {
+                    linkElement.href = data.link;
+                }
+
+                if (imgElement) {
+                    imgElement.src = data.imageUrl;
+                }
+            } else {
+                const titleElement = document.getElementById('article-title5');
+                if (titleElement) {
+                    titleElement.innerText = data.error;
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Fetch error:', error); // 자세한 오류 정보 출력
+            const titleElement = document.getElementById('article-title5');
+            if (titleElement) {
+                titleElement.innerText = '데이터 로드 중 오류 발생';
+            }
+        });
+</script>
+
+<script>
+    // 페이지 로드 시 Servlet을 호출하여 기사 데이터 가져오기
+    fetch('fetchDataServlet6')
+        .then(response => {
+            console.log('Response status:', response.status); // 응답 상태 확인
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log('Fetched data:', data); // 가져온 데이터 확인
+            if (!data.error) {
+                const titleElement = document.getElementById('article-title6');
+                const linkElement = document.getElementById('article-link6');
+                const imgElement = document.getElementById('article-image6');
+                
+                if (titleElement) {
+                    titleElement.innerText = data.title;
+                }
+
+                if (linkElement) {
+                    linkElement.href = data.link;
+                }
+
+                if (imgElement) {
+                    imgElement.src = data.imageUrl;
+                }
+            } else {
+                const titleElement = document.getElementById('article-title6');
+                if (titleElement) {
+                    titleElement.innerText = data.error;
+                }
+            }
+        })
+        .catch(error => {
+            console.error('Fetch error:', error); // 자세한 오류 정보 출력
+            const titleElement = document.getElementById('article-title6');
+            if (titleElement) {
+                titleElement.innerText = '데이터 로드 중 오류 발생';
+            }
+        });
+</script>
+<!-- ================================================================== 크롤링 끝 ========================================================================= -->
 
 
 
